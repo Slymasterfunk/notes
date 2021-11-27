@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "body": "Robert from bar down the \n\n- Take out trash\n- Eat food\n- go to sleep\n- wake up",
+      "updated": "2021-11-27T01:06:06.721Z"
+    },
+    {
+      "body": "NEW NOTE",
+      "updated": "2021-11-27T01:25:08.715Z",
+      "id": 3
+    },
+    {
+      "body": "Add",
+      "updated": "2021-11-27T01:25:31.609Z",
+      "id": 4
+    },
+    {
+      "body": "Hashes in URLs indicate a scroll position on the current page. Before the window.history.pushState API was introduced, web developers did client side routing exclusively with the hash portion of the URL, it was the only part we could manipulate without making a new request to the server. However, today we can use it for its designed purpose.\n\nHashes in URLs indicate a scroll position on the current page. Before the window.history.pushState API was introduced, web developers did client side routing exclusively with the hash portion of the URL, it was the only part we could manipulate without making a new request to the server. However, today we can use it for its designed purpose.",
+      "updated": "2021-11-27T01:33:02.860Z",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+@import 'utils';
+@import 'config';
+
+
+.notes {
+    .notes-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 16px;
+        font-weight: 600;
+
+        .notes-title {
+            color: $color-main;
+            font-size: 24px;
+        }
+        .notes-count {
+            color: $color-gray;
+            font-size: 18px;
+        }
+    }  
+    .notes-list {
+        padding: 0;
+        margin: 16px 0;
+        height: 70vh;
+        overflow-y: auto;
+        scrollbar-width: none; /* Firefox */
+        
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    .notes-list-item {
+        border-bottom: 1px solid $color-border;
+        margin-bottom: 12px;
+        padding: 8px 16px;
+        transition: all 0.2s ease-in-out;
+        
+        &:hover {
+            background-color: $color-bg;
+            cursor: pointer;
+        }
+        & h3,
+        & p span {
+            font-weight: 600;
+        }
+        & p span {
+            color: $color-gray;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        & p {
+            font-size: 14px;
+            color: $color-light;
+        }
+    }
+    .floating-button {
+        font-size: 48px;
+        position: absolute;
+        bottom: 24px;
+        right: 16px;
+        background: $color-main;
+        border: none;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    .floating-button > svg {
+        fill: $color-bg;
+    }
+}
